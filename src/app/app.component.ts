@@ -5,6 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'few100';
+  title = 'Front-End Web 100';
+
+  makeTitleUpper(): void {
+    this.title = this.title.toUpperCase();
+  }
+
 }
