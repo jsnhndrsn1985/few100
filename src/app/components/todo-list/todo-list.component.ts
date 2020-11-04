@@ -22,7 +22,7 @@ export class TodoListComponent implements OnInit {
   markComplete(item: TodoItem): void {
     item.completed = true;
   }
-
+  //
   addItem(descriptionElement: HTMLInputElement): void {
     this.items = [
       { description: descriptionElement.value, completed: false },
